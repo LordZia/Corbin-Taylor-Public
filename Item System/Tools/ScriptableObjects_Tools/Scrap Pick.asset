@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cb65522e915e2740ade9280501e75df, type: 3}
+  m_Name: Scrap Pick
+  m_EditorClassIdentifier: 
+  itemName: Scrap Pick
+  itemDescription: Mines Stuff!
+  itemId: 21
+  itemWeight: 15
+  itemStackLimit: 1
+  itemBurnTime: 0
+  sprite: {fileID: 21300000, guid: 4a874721abb888c45a78a9de7ff57f2f, type: 3}
+  _maxDurability: 150
+  _currentDurability: 150
+  _worldObjectPrefab: {fileID: 1068418330677313609, guid: cd378d0a83bed1a4a8fd821acdb5ceb4, type: 3}

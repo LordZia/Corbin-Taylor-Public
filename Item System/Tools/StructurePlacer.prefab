@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6350124183400943457
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6350124183400943462}
+  - component: {fileID: 6350124183400943463}
+  m_Layer: 0
+  m_Name: StructurePlacer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6350124183400943462
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6350124183400943457}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.66099906, z: 0.145}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6350124183400943463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6350124183400943457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45782bd904f6eb24f832c122724f44ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  usableItem: {fileID: 0}
+  holographicMaterial: {fileID: 2100000, guid: 36a5b0796ec49494cbc6d98a0147ac3c, type: 2}
+  placeableColor: {r: 0, g: 0.56810045, b: 1, a: 1}
+  unplaceableColor: {r: 1, g: 0.2760729, b: 0, a: 1}
+  lookPosDetectionLayer:
+    serializedVersion: 2
+    m_Bits: 576
+  structureLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  maxRaycastDistance: 5
+  previewMovementSpeed: 25
+  debugView: 1
+  heightChangeDisplayPrefab: {fileID: 6422849866684430571, guid: 3de20d6f3bd60a74fa6f7074129cd244, type: 3}
+  rotationChangeDisplayPrefab: {fileID: 8538412489528478378, guid: 4608d2a38cb3f1f40903994c4bb1664c, type: 3}
+  isPlaceable: 0
+  horizontalRotationSpeed: 50
+  heightChangeSensitivity: 15

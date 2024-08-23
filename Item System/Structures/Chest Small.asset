@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdf3121fe9a8de14c8bb8bc8c3c4adb0, type: 3}
+  m_Name: Chest Small
+  m_EditorClassIdentifier: 
+  itemName: Chest Small
+  itemDescription: A small container used to store items
+  itemId: 15
+  itemWeight: 10
+  itemStackLimit: 100
+  itemBurnTime: 0
+  sprite: {fileID: 21300000, guid: 073d22c7aa1db264fafe8cc4471d26db, type: 3}
+  _maxDurability: 100
+  _worldObjectPrefab: {fileID: 6350124183400943457, guid: f73fbc9f278aa8844b3a88d04b37cbb2, type: 3}
+  durabilityDrainPerUse: 0
+  structurePrefab: {fileID: 8472504012931723958, guid: b767c207ff4c6f74db0f86b58e7283ed, type: 3}
+  requiredStability: 0
+  providedStability: 0

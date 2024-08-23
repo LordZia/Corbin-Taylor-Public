@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aae6f64d79785b1448e397f10343248f, type: 3}
+  m_Name: Iron Bar
+  m_EditorClassIdentifier: 
+  itemName: Iron Bar
+  itemDescription: A strong and sturdy material
+  itemId: 11
+  itemWeight: 25
+  itemStackLimit: 100
+  itemBurnTime: 0
+  sprite: {fileID: 21300000, guid: 92b204cca46037444ab18ba6701f86f7, type: 3}
