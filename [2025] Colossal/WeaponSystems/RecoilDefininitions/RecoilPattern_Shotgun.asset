@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05d48712ef65730499a84e4e3f016244, type: 3}
+  m_Name: RecoilPattern_Shotgun
+  m_EditorClassIdentifier: 
+  curveType: 1
+  closed: 0
+  points:
+  - {x: 0.135, y: 0.5}
+  - {x: 0.6339068, y: 2.0515883}
+  - {x: 0.863789, y: 3.56498}
+  - {x: 0.729691, y: 5.0017443}
+  smoothing: 1

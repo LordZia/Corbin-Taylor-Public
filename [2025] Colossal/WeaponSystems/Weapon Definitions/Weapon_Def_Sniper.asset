@@ -1,0 +1,272 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbaa284440c2b9842956b1f2c90c6dab, type: 3}
+  m_Name: Weapon_Def_Sniper
+  m_EditorClassIdentifier: 
+  weaponName: Sniper
+  weaponID: 5
+  worldItemPrefabName: WO_Weapon_Sniper
+  damageType: Weapon
+  fireType: 1
+  damage: 90
+  fireRate: 1.3
+  range: 0
+  maxAmmo: 3
+  startingReserveAmmo: 9
+  reloadTime: 1.3
+  recoilStrength: 0.1
+  accuracySpread: 0
+  canADS: 0
+  infiniteReserveAmmo: 1
+  bottomlessClip: 0
+  sprayStepPerShot: 0
+  sprayHoldDelay: 0.6
+  sprayCooldownTime: 0.6
+  resetSprayOnReload: 1
+  inaccuracyMinDeg: 0
+  inaccuracyMaxDeg: 5
+  inaccuracyRampTime: 1.5
+  inaccuracyRecoveryPerSec: 2
+  inaccuracyRadialWeight:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -3.5999997
+      outSlope: -3.5999997
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.09375
+    - serializedVersion: 3
+      time: 0.14206597
+      value: 0.040249288
+      inSlope: -0.19705197
+      outSlope: -0.19705197
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.47548416
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -0.071428575
+      outSlope: -0.071428575
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.4375
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  inaccuracyCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.8052994
+      value: 0.34612632
+      inSlope: 1.4708508
+      outSlope: 1.4708508
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  groundedAccuracyScale: 1
+  airborneAccuracyScale: 1
+  hipfireSpreadMultiplier: 1
+  adsSpreadMultiplier: 0
+  hipfireRecoilPathMultiplier: 0
+  adsRecoilPathMultiplier: 1
+  hipfireRecoilCurveMultiplier: 1
+  adsRecoilCurveMultiplier: 0
+  useRecoilCurves: 0
+  recoilYawCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  recoilPitchCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 2
+      inSlope: 2
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  recoilCurveDuration: 0.6
+  recoilCurveLoop: 1
+  recoilCurveScale: 1
+  recoilNoiseDeg: 0
+  useRecoilPath: 0
+  recoilPath: {fileID: 0}
+  recoilPathDuration: 0.5
+  recoilPathLoop: 1
+  recoilPathDistanceNormalized: 0
+  recoilPathAxisScaleDeg: {x: 1, y: 1}
+  useShotsToSpan: 0
+  recoilPatternShots: 30
+  isAutomatic: 0
+  projectileLifetime: 3
+  projectileSpeed: 150
+  projectileDropAcceleration: 3
+  burstCount: 0
+  singleFireDelay: 0
+  recoilSprayResetDelay: 0.25
+  recoilHoldbackTolerance: 0.03
+  fleshImpactEffect: {fileID: 11400000, guid: 3f8eabf408a0a9242a39d19a50661b42, type: 2}
+  structureImpactEffect: {fileID: 11400000, guid: b85045d35dffc0a49a53a009bd626cb8, type: 2}
+  isChargeable: 0
+  chargeTime: 0
+  pelletAngleOffsets: []
+  meleeRadius: 1
+  projectilePrefab: {fileID: 66458904337920587, guid: 8babf9a3d5af9f9498e82b0ba0029787, type: 3}
+  viewPrefab: {fileID: 5072712007507443782, guid: 7cd29687cbf16234dad05b7431a13aa8, type: 3}
+  muzzleFlashDef: {fileID: 11400000, guid: 37c18c053ae8de1449deb967c54f6113, type: 2}
+  lingeringEffectDef: {fileID: 11400000, guid: e3e327bceda96994ab9bab16b905cf5f, type: 2}
+  muzzleFlashLightDef: {fileID: 11400000, guid: cd46b62d446eed04cb5946d379d314a8, type: 2}
+  fireSound: {fileID: 11400000, guid: c7ca0e9b937dd7740a0b5f9fe10910fa, type: 2}
+  soundPitchByAmmo:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reloadSound: {fileID: 11400000, guid: 2c652fcd67312824999dff7a84084b8a, type: 2}
+  fleshImpactSoundDef: {fileID: 11400000, guid: 827da360b4ec55e4fb5e78a6e0b5139e, type: 2}
+  structureImpactSoundDef: {fileID: 11400000, guid: 2a84750210ffadc4dba72998ca47dd1d, type: 2}
+  interactMessage: Sniper
+  displayIcon: {fileID: 21300000, guid: e1d7168b30f07a64f8c16b559aaabf46, type: 3}
+  crosshairIconHipfire: {fileID: 0}
+  crosshairIconADS: {fileID: 0}
+  crossHairScaleOverSprayDuration:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  crosshairScaleOverADSTransition:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
